@@ -32,19 +32,8 @@ namespace CitiesSkylinesLauncher
         }
     }
 
-    public class LauncherSettings
+    class LauncherSettings
     {
-        public int formatVersion { get; set; }
-        public string distPlatform { get; set; }
-        public string gameId { get; set; }
-        public string displayName { get; set; }
         public string exePath { get; set; }
-        public string gameDataPath { get; set; }
-        public string version { get; set; }
-        public string themeFile { get; set; }
-        public string browserDlcUrl { get; set; }
-        public bool steamWorkshopDisabled { get; set; }
-        public bool steamModsMigrationDisabled { get; set; }
     }
-
 }
